@@ -1,0 +1,29 @@
+{
+  "name": "clubhouse-test",
+  "description": "clubhouse test",
+  "version": "1.0.0",
+  "author": "Mark Line <mark@tryflux.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonnysparkplugs/clubhouse-test"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:debug": "nodemon --inspect-brk src/index.js"
+  },
+  "dependencies": {
+    "clubhouse-lib": "^0.3.0",
+    "dotenv": "^6.0.0",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-node": "^7.0.1",
+    "nodemon": "^1.18.4"
+  }
+}
